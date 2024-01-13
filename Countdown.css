@@ -1,0 +1,58 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,300;0,400;1,500;1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , 'sans-serif';
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/newyear1.jpg');
+    color: white;
+    background-size: cover;
+    background-position: center;
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    gap: 18px;
+}
+
+p{
+    font-size:2rem;
+}
+
+.newyear{
+    font-family: 'Inspiration';
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.box{
+    height:50px;
+    width: 50px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+}
+
+.box small{
+    font-midium: 10px;
+}
+
+
+
